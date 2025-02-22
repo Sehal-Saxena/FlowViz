@@ -1,0 +1,23 @@
+.edge-foreignobject {
+  overflow: visible;
+  pointer-events: none;
+}
+
+.edge-text {
+  background-color: white;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 12px;
+  text-align: center;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  pointer-events: none;
+}
+
+.react-flow__edge-path {
+  marker-end: url(#arrowhead);
+}
+
+#arrowhead {
+  fill: currentColor;
+}
+
